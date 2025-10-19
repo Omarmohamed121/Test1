@@ -5,6 +5,11 @@
 # They are provided by a third-party and are governed by
 # separate terms of service, privacy policy, and support
 # documentation.
+permissions:
+  contents: read
+  id-token: write
+  actions: read
+  security-events: write
 
 name: Java CI with Maven
 
